@@ -2104,8 +2104,18 @@ section,
 }
 
 .service-details h2 {
-  font-size: 30px;
+  font-size: 37px;
   font-weight: 700;
+}
+
+.service-details h3 {
+  font-size: 27px;
+  font-weight: 500;
+}
+
+.service-details h4 {
+  font-size: 23px;
+  font-weight: 300;
 }
 
 /* .service-details p {
