@@ -2103,14 +2103,14 @@ section,
   margin-bottom: 20px;
 }
 
-.service-details h3 {
-  font-size: 26px;
+.service-details h2 {
+  font-size: 30px;
   font-weight: 700;
 }
 
-.service-details p {
+/* .service-details p {
   font-size: 15px;
-}
+} */
 
 .service-details ul {
   list-style: none;
