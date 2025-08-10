@@ -176,6 +176,7 @@ h6 {
   border-radius: 4px;
   transition: 0.3s;
   font-weight: 500;
+  border-radius: 20px;
 }
 
 .header .btn-getstarted:hover,
@@ -571,6 +572,7 @@ h6 {
   width: 100%;
   background-color: color-mix(in srgb, var(--background-color), transparent 50%);
   color: var(--default-color);
+  
 }
 
 .footer .footer-newsletter .newsletter-form input[type=email]:focus-visible {
@@ -585,7 +587,7 @@ h6 {
   background: var(--accent-color);
   color: var(--contrast-color);
   transition: 0.3s;
-  border-radius: 0 4px 4px 0;
+  border-radius: 0 25px 25px 0;
 }
 
 .footer .footer-newsletter .newsletter-form input[type=submit]:hover {
@@ -866,7 +868,7 @@ section,
   align-items: center;
   justify-content: center;
   padding: 12px 40px;
-  border-radius: 4px;
+  border-radius: 25px;
   transition: 0.5s;
   box-shadow: 0 8px 28px rgba(0, 0, 0, 0.1);
 }
@@ -969,7 +971,7 @@ section,
   background: var(--accent-color);
   line-height: 0;
   padding: 15px 40px;
-  border-radius: 4px;
+  border-radius: 25px;
   transition: 0.5s;
   box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.1);
 }
@@ -1806,7 +1808,9 @@ section,
   text-transform: uppercase;
   font-size: 13px;
   padding: 6px 12px;
+  margin: 10px;
   font-weight: 500;
+  border-radius: 20px;
 }
 
 .recent-posts .post-item .post-content {
@@ -1923,7 +1927,7 @@ section,
   border: 0;
   padding: 10px 30px;
   transition: 0.4s;
-  border-radius: 4px;
+  border-radius: 25px;
 }
 
 .contact .php-email-form button[type=submit]:hover {
