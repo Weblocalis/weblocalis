@@ -993,6 +993,44 @@ section,
   transform: translateX(5px);
 }
 
+
+
+/*--------------------------------------------------------------
+# CTA
+--------------------------------------------------------------*/
+.cta .content {
+  background-color: color-mix(in srgb, var(--accent-color), transparent 95%);
+  padding: 40px;
+}
+
+.cta .content h3 {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--accent-color);
+  text-transform: uppercase;
+}
+
+.cta .content h2 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.cta .content p {
+  margin: 15px 0 30px 0;
+  line-height: 24px;
+}
+
+.cta .content .btn-read-more {
+  color: var(--contrast-color);
+  background: var(--accent-color);
+  
+  padding: 15px 40px;
+  border-radius: 25px;
+  transition: 0.5s;
+  box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.1);
+}
+
+
 /*--------------------------------------------------------------
 # Values Section
 --------------------------------------------------------------*/
