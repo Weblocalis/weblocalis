@@ -32,7 +32,7 @@
 
 <body class="index-page">
 
-  <header id="header" class="header d-flex align-items-center fixed-top">
+  <header role="banner" id="header" class="header d-flex align-items-center fixed-top">
     <div class="container-fluid container-xl position-relative d-flex align-items-center">
 
       <a href="index.html" class="logo d-flex align-items-center me-auto">
@@ -41,7 +41,7 @@
         <span class="sitename">WebLocalis</span>
       </a>
 
-      <nav id="navmenu" class="navmenu">
+      <nav role="navigation" id="navmenu" class="navmenu" aria-label="Menu principal">
         <ul>
           <li><a href="#hero" class="active">Home<br></a></li>
           <li><a href="#about">About</a></li>
@@ -105,7 +105,7 @@
     </div>
   </header>
 
-  <main class="main">
+  <main role="main" class="main">
 
     <!-- Hero Section -->
     <section id="hero" class="hero section">
@@ -149,11 +149,6 @@
               </div>
             </div>
           </div>
-
-          <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
-            <img src="assets/img/section-a-propos.jpg" class="img-fluid" alt="Présentation de WebLocalis, agence de référencement local">
-          </div>
-
         </div>
       </div>
 
@@ -1283,7 +1278,7 @@
 
   </main>
 
-  <footer id="footer" class="footer">
+  <footer role="contentinfo" id="footer" class="footer">
 
     <div class="footer-newsletter">
       <div class="container">
@@ -1351,14 +1346,10 @@
     </div>
 
     <div class="container copyright text-center mt-4">
-      <p>© <span>Copyright</span> <strong class="px-1 sitename">WebLocalis</strong> <span>All Rights Reserved</span></p>
-      <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you've purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-      </div>
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">WebLocalis</strong>
+       <time datetime="2019-12-08">2019</time>.
+        <span>All Rights Reserved</span></p>
+      
     </div>
 
   </footer>
